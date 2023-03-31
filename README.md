@@ -137,3 +137,8 @@ inicio
    ate(i > 10)
 fimalgoritmo 
 
+
+
+
+
+TIPOS DE DADOS NA  LINGUAGEM JAVA*
