@@ -1,5 +1,5 @@
-# vivyan
-tipos de dados, estrutura condicional e estrutura de repetição de linguagem Java 
+TIPOS DE DADOS, ESTRUTURA CONDICIONAL, ESTRUTURA DE REPETIÇÃO DE LINGUAGEM JAVA, tipos de elementos visuais do android studio e switch case. 
+tipos de dados, estrutura condicional e estrutura de repetição de linguagem Java, tipos de elementos visuais do android studio e switch case. 
 
 ESTRUTURA CONDICIONAL-
 
@@ -140,5 +140,115 @@ fimalgoritmo
 
 
 
+*TIPOS-DE-ELEMENTOS-VISUAIS-DO-ANDROID-STUDIO*
 
-TIPOS DE DADOS NA  LINGUAGEM JAVA*
+
+
+Existem vários tipos de elementos visuais disponíveis no Android Studio, que permitem criar interfaces de usuário ricas e atraentes para seus aplicativos Android. Alguns dos principais elementos visuais incluem:
+
+Views: são elementos de interface de usuário que podem ser adicionados a uma tela, como botões, caixas de texto, listas e imagens.
+
+Layouts: são contêineres que permitem organizar as Views na tela, como RelativeLayout, LinearLayout e ConstraintLayout.
+
+Fragments: são componentes reutilizáveis que podem ser usados,para construir telas dinâmicas e flexíveis.
+
+Menu: permite criar menus e submenus para seu aplicativo.
+
+Dialogs: são janelas pop-up que exibem informações ou solicitações de entrada do usuário.
+
+Adapters: permitem vincular dados a uma lista ou grid de Views, como ListView, RecyclerView e GridView.
+
+Toasts: são mensagens curtas que aparecem na parte inferior da tela, geralmente para exibir informações temporárias.
+
+Animations: permitem criar transições e efeitos visuais em suas Views, como animações de rotação, transição de tela e transição de elemento compartilhado.
+
+Esses são apenas alguns exemplos de elementos visuais disponíveis no Android Studio. O desenvolvedor pode também criar elementos personalizados para atender às suas necessidades específicas.
+
+
+-Switch case
+
+AA estrutura switch case é composta por uma expressão ou variável que é comparada com várias opções case. Cada caso é seguido por um bloco de código que será executado se a expressão ou variáveis testadas for igual ao valor do caso. Além disso, é possível incluir uma opção padrão (padrão) após os casos.
+
+int opcao = 3;
+switch (opcao) {
+    case 1:
+        System.out.println("Opção 1 selecionada.");
+        break;
+    case 2:
+        System.out.println("Opção 2 selecionada.");
+        break;
+    case 3:
+        System.out.println("Opção 3 selecionada.");
+        break;
+    default:
+        System.out.println("Opção inválida.");
+        break;
+}
+
+
+
+
+*TIPOS DE DADOS*
+
+-tipo inteiro-
+
+Números inteiros são tipicamente armazenados na memória em agrupamentos de 32-bits ou 64-bits, permitindo representar os seguintes intervalos de números:
+
+para 32-bits: de −2.147.483.648 até 2.147.483.647 ou de -(231) até 231 − 1
+para 64 bits: de −9.223.372.036.854.775.808 até 9.223.372.036.854.775.807 ou de -(263) até 263 − 1
+Estes são os limites típicos da maioria das linguagens de programação.
+
+
+-tipo float-
+
+Você já encontrou esse outro tipo de dados numéricos anteriormente: o tipo “número real” Este tipo permite cálculos em números muito grandes ou muito pequenos (dados científicos, por exemplo), com um grau constante de precisão. Para que um dado numérico seja considerado como sendo do tipo float pelo Python, basta que ele contenha em sua formulação um elemento como um ponto decimal ou um expoente de 10.
+
+
+
+*alfa numericos*
+Até agora só manipulamos números. Mas um programa de computador também pode manipular caracteres alfabéticos, palavras, frases ou seqüências de quaisquer símbolos. Na maioria das linguagens de programação, existem estruturas de dados específicas para esse propósito chamadas “strings de caracteres”
+
+
+-tipo string-
+
+Uma variável do tipo string pode ser definida em primeira aproximação como uma seqüência de caracteres. Em um script python, podemos delimitar tal sequência de caracteres, entre aspas simples ou duplas
+
+                   >>> frase1 = 'de alface'
+                   >>> frase2 = '"Sim", ele respondeu,'
+                   >>> frase3 = "eu gosto"
+                   >>> print (frase2, frase3, frase1)
+                   "Sim", ele respondeu, eu gosto de alface.
+
+
+As 3 variáveis frase1, frase2 e frase3 são, portanto, variáveis do tipo string. Observe o uso de aspas para delimitar uma cadeia na qual existem aspas simples ou o uso de aspas simples para delimitar uma cadeia que contenha aspas. Observe também que a função print () insere um espaço entre os elementos exibidos. O caractere especial “" (barra invertida) permite algumas sutilezas complementares:
+
+Primeiro, permite escrever em várias linhas um comando que seria muito longo para caber em um (isso se aplica a qualquer tipo de comando).
+Dentro de uma string, a barra invertida permite que você insira um número de códigos especiais (quebras de linha, aspas simples, aspas e assim por diante)
+
+-operacoes basicas com string-
+
+
+É possível agrupar strings pequenas para construir strings maiores. Essa operação é chamada de concatenação e é executada no Python usando o operador + (esse operador, portanto, executa a operação de adição quando aplicado a números e a operação de concatenação quando é aplicado às strings). Exemplo:
+              a = 'O peixinho'
+              b = 'vai crescer'
+              c = a + b
+              print(c)
+              O peixinho vai crescer
+
+Também é possível determinar o comprimento (isto é, o número de caracteres) de uma string, usando a função integrada len():
+                >>> ch = 'Georges'
+                >>> print(len(ch))
+                7
+É possível converter um número real uma string que represente um número. Exemplo:
+                      >>> ch = '8647'
+                      >>> print(ch + 45)
+                      TypeError: Can't convert 'int' object to str implicitly
+                      >>> n = int(ch)
+                      >>> print(n + 65)
+                      8712
+Neste exemplo, a função interna int() converte a string em um inteiro. Também seria possível converter uma string em um número real, usando a função float().
+
+
+
+
+
